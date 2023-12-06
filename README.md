@@ -1,1 +1,2 @@
-# Sunnyside_testimonial
+liens vers l'exercice complet:
+git@github.com:NoAndernack/Sunnyside.git
