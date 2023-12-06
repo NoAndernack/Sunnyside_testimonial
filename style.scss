@@ -71,7 +71,7 @@ body {
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: 1fr;
             grid-column-gap: 0px;
-            grid-row-gap: 0px;
+            grid-row-gap: 0;
             margin-top: 10em;
 
             &__un {
@@ -144,6 +144,15 @@ body {
             &__colonne{
                 display:flex;
                 flex-direction: column;
+                &__un{
+                    margin-bottom:3em;
+                }
+                &__deux{
+                    margin-bottom:3em;
+                }
+                &__trois{
+                    margin-bottom:3em;
+                }
             }
         }
     }

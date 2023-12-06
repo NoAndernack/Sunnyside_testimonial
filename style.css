@@ -26,7 +26,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  grid-row-gap: 0;
   margin-top: 10em;
 }
 .testimonial__colonne__un {
@@ -160,5 +160,14 @@ body {
   .testimonial__colonne {
     display: flex;
     flex-direction: column;
+  }
+  .testimonial__colonne__un {
+    margin-bottom: 3em;
+  }
+  .testimonial__colonne__deux {
+    margin-bottom: 3em;
+  }
+  .testimonial__colonne__trois {
+    margin-bottom: 3em;
   }
 }/*# sourceMappingURL=style.css.map */
